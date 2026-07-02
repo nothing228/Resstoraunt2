@@ -91,5 +91,11 @@
 }
 
 @media (max-width: $breakpoint-sm) {
-  .miniCart__dropdown { width: calc(100vw - 2rem); right: -0.5rem; }
+  .miniCart__dropdown {
+    position: fixed;
+    top: calc(var(--header-height) + 8px);
+    left: 1rem;
+    right: 1rem;
+    width: auto;
+  }
 }
