@@ -1,0 +1,134 @@
+.about {
+  padding-bottom: 5rem;
+
+  &__hero { padding: 3rem 0 2rem; }
+  &__desc { font-size: 1.0625rem; color: var(--color-text-secondary); line-height: 1.8; max-width: 720px; }
+
+  &__story { padding: 2rem 0; }
+
+  &__storyGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  &__storyCard {
+    padding: 1.75rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: $radius-lg;
+    h3 { font-family: $font-display; font-size: 1.25rem; margin-bottom: 0.75rem; }
+    p { font-size: 0.9375rem; color: var(--color-text-secondary); line-height: 1.7; }
+  }
+
+  &__founded {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-accent);
+  }
+
+  &__chef { padding: 3rem 0; }
+
+  &__chefCard {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: $radius-lg;
+    margin-top: 1rem;
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: $radius-lg;
+      flex-shrink: 0;
+    }
+
+    h3 { font-family: $font-display; font-size: 1.5rem; margin-bottom: 0.75rem; }
+    p { color: var(--color-text-secondary); line-height: 1.7; }
+  }
+
+  &__gallery { padding: 2rem 0; }
+
+  &__galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+
+    img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: $radius-md;
+      transition: transform $transition-base;
+      &:hover { transform: scale(1.03); }
+    }
+  }
+
+  &__info { padding: 3rem 0; }
+
+  &__infoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    h3 { font-family: $font-display; font-size: 1.25rem; margin-bottom: 1rem; }
+  }
+
+  &__hours {
+    width: 100%;
+    font-size: 0.9375rem;
+    td { padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); }
+    td:first-child { font-weight: 500; padding-right: 2rem; }
+    td:last-child { color: var(--color-text-secondary); }
+  }
+
+  &__contact {
+    dt { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--color-text-muted); margin-top: 0.75rem; }
+    dd { font-size: 0.9375rem; margin-top: 0.25rem; }
+    a:hover { color: var(--color-accent); }
+  }
+
+  &__socialTitle { margin-top: 1.5rem !important; }
+
+  &__social {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+
+    a {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-bg-secondary);
+      border: 1px solid var(--color-border);
+      border-radius: $radius-full;
+      font-size: 1.125rem;
+      transition: all $transition-fast;
+      &:hover { border-color: var(--color-accent); color: var(--color-accent); }
+    }
+  }
+
+  &__map {
+    border-radius: $radius-lg;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    iframe { width: 100%; height: 360px; border: none; display: block; }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .about {
+    &__chefCard { flex-direction: column; text-align: center; img { width: 160px; height: 160px; } }
+    &__infoGrid { grid-template-columns: 1fr; }
+  }
+}

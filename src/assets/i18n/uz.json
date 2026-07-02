@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "menu": "Menyu",
+    "about": "Biz haqimizda",
+    "cart": "Savat",
+    "favorites": "Sevimlilar"
+  },
+  "hero": {
+    "title": "Ajoyib Ta'mni Tatib Ko'ring",
+    "subtitle": "Premium taomlar 30 daqiqada eshigingizgacha",
+    "cta": "Buyurtma berish",
+    "secondary": "Menyuni ko'rish"
+  },
+  "categories": {
+    "title": "Kategoriyalar",
+    "pizza": "Pitsa",
+    "pasta": "Pasta",
+    "burgers": "Burgerlar",
+    "sushi": "Sushi",
+    "salads": "Salatlar",
+    "drinks": "Ichimliklar",
+    "desserts": "Shirinliklar"
+  },
+  "specials": {
+    "title": "Bugungi maxsus takliflar",
+    "subtitle": "Shefning maxsus narxdagi tanlangan taomlari"
+  },
+  "promo": {
+    "title": "Birinchi buyurtmaga 20% chegirma",
+    "subtitle": "WELCOME20 kodini ishlating",
+    "cta": "Buyurtma berish"
+  },
+  "reviews": {
+    "title": "Mijozlar fikrlari",
+    "subtitle": "Minglab mamnun gurmanlarga qo'shiling"
+  },
+  "menu": {
+    "title": "Bizning menyu",
+    "subtitle": "Premium taomlarning to'liq tanlovi",
+    "filters": "Filtrlar",
+    "category": "Kategoriya",
+    "dietary": "Dieta",
+    "priceRange": "Narx oralig'i",
+    "sortBy": "Saralash",
+    "all": "Hammasi",
+    "clearAll": "Filtrlarni tozalash",
+    "results": "{total} taomdan {count} ko'rsatilmoqda",
+    "noResults": "Filtrlaringizga mos taomlar topilmadi",
+    "sort": {
+      "popular": "Mashhur",
+      "rating": "Reyting bo'yicha",
+      "price-asc": "Narx: arzon → qimmat",
+      "price-desc": "Narx: qimmat → arzon"
+    }
+  },
+  "dietary": {
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "gluten-free": "Glutensiz",
+    "spicy": "Achchiq"
+  },
+  "dish": {
+    "addToCart": "Savatga qo'shish",
+    "reviews": "sharh",
+    "min": "daq",
+    "unavailable": "Mavjud emas"
+  },
+  "about": {
+    "title": "Bizning hikoyamiz",
+    "subtitle": "2010-yildan beri har bir likopchada ehtiros",
+    "history": "Tariximiz",
+    "mission": "Missiyamiz",
+    "vision": "Vizyonimiz",
+    "chef": "Shefimiz bilan tanishing",
+    "gallery": "Restoran galereyasi",
+    "hours": "Ish vaqti",
+    "contact": "Aloqa",
+    "address": "Manzil",
+    "phone": "Telefon",
+    "email": "Email",
+    "followUs": "Ijtimoiy tarmoqlar"
+  },
+  "days": {
+    "monday": "Dushanba",
+    "tuesday": "Seshanba",
+    "wednesday": "Chorshanba",
+    "thursday": "Payshanba",
+    "friday": "Juma",
+    "saturday": "Shanba",
+    "sunday": "Yakshanba"
+  },
+  "cart": {
+    "title": "Savatingiz",
+    "empty": "Savat bo'sh",
+    "emptyCta": "Menyuni ko'rish",
+    "subtotal": "Oraliq summa",
+    "delivery": "Yetkazish",
+    "tax": "Soliq",
+    "discount": "Chegirma",
+    "total": "Jami",
+    "promoPlaceholder": "Promo kodni kiriting",
+    "applyPromo": "Qo'llash",
+    "promoSuccess": "Promo kod qo'llanildi!",
+    "promoError": "Noto'g'ri promo kod",
+    "deliveryAddress": "Yetkazish manzili",
+    "fullName": "To'liq ism",
+    "phone": "Telefon raqami",
+    "address": "Ko'cha manzili",
+    "apartment": "Kv / Ofis",
+    "notes": "Izoh",
+    "estimatedTime": "Taxminiy yetkazish vaqti",
+    "minutes": "daqiqa",
+    "placeOrder": "Buyurtma berish",
+    "orderSuccess": "Buyurtma qabul qilindi!",
+    "orderSuccessMsg": "Taomingiz tayyorlanmoqda. Yetkazish {time} daqiqada.",
+    "maxOrderError": "Buyurtma ${max} limitidan oshdi",
+    "validationError": "Barcha majburiy maydonlarni to'ldiring",
+    "remove": "O'chirish"
+  },
+  "favorites": {
+    "title": "Sevimlilar",
+    "subtitle": "Saqlab qo'ygan taomlaringiz",
+    "empty": "Sevimlilar bo'sh. Menyumizni ko'rib chiqing!",
+    "browse": "Menyuni ko'rish"
+  },
+  "search": {
+    "placeholder": "Taomlar, ingredientlar qidirish..."
+  },
+  "header": {
+    "cart": "Savat",
+    "favorites": "Sevimlilar"
+  },
+  "footer": {
+    "tagline": "Premium ovqat yetkazish",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Sahifa topilmadi",
+    "back": "Bosh sahifaga"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "retry": "Qayta urinish"
+  },
+  "toast": {
+    "addedToCart": "Savatga qo'shildi!",
+    "removedFromCart": "Savatdan olib tashlandi",
+    "addedToFavorites": "Sevimlilarga qo'shildi",
+    "removedFromFavorites": "Sevimlilardan olib tashlandi"
+  }
+}

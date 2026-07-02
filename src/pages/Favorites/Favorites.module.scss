@@ -1,0 +1,18 @@
+.favorites {
+  padding: 2.5rem 0 5rem;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  &__empty {
+    text-align: center;
+    padding: 5rem 2rem;
+    span { font-size: 4rem; color: var(--color-text-muted); display: block; margin-bottom: 1rem; }
+    p { color: var(--color-text-secondary); margin-bottom: 1.5rem; font-size: 1.0625rem; }
+  }
+
+  &__status { text-align: center; padding: 4rem; color: var(--color-text-muted); }
+}

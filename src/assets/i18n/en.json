@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "cart": "Cart",
+    "favorites": "Favorites"
+  },
+  "hero": {
+    "title": "Taste the Extraordinary",
+    "subtitle": "Premium cuisine delivered fresh to your door in under 30 minutes",
+    "cta": "Order Now",
+    "secondary": "View Menu"
+  },
+  "categories": {
+    "title": "Browse Categories",
+    "pizza": "Pizza",
+    "pasta": "Pasta",
+    "burgers": "Burgers",
+    "sushi": "Sushi",
+    "salads": "Salads",
+    "drinks": "Drinks",
+    "desserts": "Desserts"
+  },
+  "specials": {
+    "title": "Today's Specials",
+    "subtitle": "Chef's handpicked favorites at special prices"
+  },
+  "promo": {
+    "title": "20% Off Your First Order",
+    "subtitle": "Use code WELCOME20 at checkout",
+    "cta": "Order Now"
+  },
+  "reviews": {
+    "title": "What Our Customers Say",
+    "subtitle": "Join thousands of happy food lovers"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Explore our full selection of premium dishes",
+    "filters": "Filters",
+    "category": "Category",
+    "dietary": "Dietary",
+    "priceRange": "Price Range",
+    "sortBy": "Sort By",
+    "all": "All",
+    "clearAll": "Clear All Filters",
+    "results": "Showing {count} of {total} dishes",
+    "noResults": "No dishes match your filters",
+    "sort": {
+      "popular": "Most Popular",
+      "rating": "Top Rated",
+      "price-asc": "Price: Low to High",
+      "price-desc": "Price: High to Low"
+    }
+  },
+  "dietary": {
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "gluten-free": "Gluten-Free",
+    "spicy": "Spicy"
+  },
+  "dish": {
+    "addToCart": "Add to Cart",
+    "reviews": "reviews",
+    "min": "min",
+    "unavailable": "Unavailable"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "Passion on every plate since 2010",
+    "history": "Our History",
+    "mission": "Our Mission",
+    "vision": "Our Vision",
+    "chef": "Meet Our Chef",
+    "gallery": "Restaurant Gallery",
+    "hours": "Opening Hours",
+    "contact": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "followUs": "Follow Us"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "emptyCta": "Browse Menu",
+    "subtotal": "Subtotal",
+    "delivery": "Delivery Fee",
+    "tax": "Tax",
+    "discount": "Discount",
+    "total": "Total",
+    "promoPlaceholder": "Enter promo code",
+    "applyPromo": "Apply",
+    "promoSuccess": "Promo code applied!",
+    "promoError": "Invalid promo code",
+    "deliveryAddress": "Delivery Address",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "address": "Street Address",
+    "apartment": "Apt / Suite",
+    "notes": "Delivery Notes",
+    "estimatedTime": "Estimated delivery",
+    "minutes": "minutes",
+    "placeOrder": "Place Order",
+    "orderSuccess": "Order placed successfully!",
+    "orderSuccessMsg": "Your delicious meal is on its way. Estimated delivery in {time} minutes.",
+    "maxOrderError": "Order exceeds maximum limit of ${max}",
+    "validationError": "Please fill in all required fields",
+    "remove": "Remove"
+  },
+  "favorites": {
+    "title": "Your Favorites",
+    "subtitle": "Dishes you've saved for later",
+    "empty": "No favorites yet. Start exploring our menu!",
+    "browse": "Browse Menu"
+  },
+  "search": {
+    "placeholder": "Search dishes, ingredients..."
+  },
+  "header": {
+    "cart": "Cart",
+    "favorites": "Favorites"
+  },
+  "footer": {
+    "tagline": "Premium food delivery",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Page not found",
+    "back": "Back to Home"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again"
+  },
+  "toast": {
+    "addedToCart": "Added to cart!",
+    "removedFromCart": "Removed from cart",
+    "addedToFavorites": "Added to favorites",
+    "removedFromFavorites": "Removed from favorites"
+  }
+}
